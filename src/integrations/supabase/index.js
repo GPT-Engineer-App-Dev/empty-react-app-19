@@ -19,9 +19,6 @@ const fromSupabase = async (query) => {
 
 /* supabase integration types
 
-// EXAMPLE TYPES SECTION
-// DO NOT USE TYPESCRIPT
-
 Event // table: events
     id: number
     created_at: string
@@ -35,7 +32,7 @@ Comment // table: comments
     created_at: string
     content: string
     event_id: number // foreign key to Event
-	
+
 */
 
 export const useEvents = () => useQuery({
